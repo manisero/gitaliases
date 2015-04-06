@@ -1,5 +1,5 @@
+```
 [alias]
-
 	# git:
 	b = branch
 	s = status -u .
@@ -25,3 +25,4 @@
 	#macros:
 	pulldev = !git dev && git pull && git back && git merge -
 	pushdev = !git pulldev && git push && git dev && git merge - --no-ff && git push
+```
