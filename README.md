@@ -1,4 +1,5 @@
-Useful git aliases:
+Useful git aliases.
+Feel free to copy them to your "C:\Users\[user]\.gitconfig" file (Windows).
 
 ```
 [alias]
