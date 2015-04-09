@@ -1,4 +1,4 @@
-Useful git aliases.
+Useful git aliases and other options.
 Feel free to copy them to your "C:\Users\\[user]\\.gitconfig" file (Windows).
 
 ```
@@ -28,4 +28,14 @@ Feel free to copy them to your "C:\Users\\[user]\\.gitconfig" file (Windows).
 	#macros:
 	pulldev = !git dev && git pull && git back && git merge -
 	pushdev = !git pulldev && git push && git dev && git merge - --no-ff && git push
+
+# available colors: normal, black, red, green, yellow, blue, magenta, cyan and white
+# color attributes: bold, dim, ul, blink and reverse
+[color "status"]
+	added = green bold
+	changed = red bold
+	untracked = red bold
+[color "diff"]
+	old = red bold
+	new = green bold
 ```
