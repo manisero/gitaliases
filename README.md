@@ -2,6 +2,12 @@ Useful git aliases and other options.
 Feel free to copy them to your "C:\Users\\[user]\\.gitconfig" file (Windows).
 
 ```
+[http]
+	sslVerify = false
+[credential]
+	helper = store
+[push]
+	default = simple
 [alias]
 	# git:
 	b = branch
