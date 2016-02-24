@@ -5,7 +5,7 @@ Feel free to copy them to your "C:\Users\\[user]\\.gitconfig" file (Windows).
 [http]
 	sslVerify = false
 [credential]
-	helper = store
+	helper = wincred
 [push]
 	default = simple
 [alias]
