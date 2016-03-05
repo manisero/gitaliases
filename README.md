@@ -1,3 +1,5 @@
+*Please note: this repo was migrated to Gist: https://gist.github.com/manisero/1dc8c9cce46d75811883*
+
 Useful git aliases and other options.
 Feel free to copy them to your "C:\Users\\[user]\\.gitconfig" file (Windows).
 
